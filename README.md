@@ -8,13 +8,14 @@ Code Guide is a project for documenting standards for developing flexible, durab
 
 ### License
 
-Released under MIT by, and copyright 2014, @materliu.
+Released under MIT by, and copyright 2017, @johnsen.
 
 ### Thanks
 
 Heavily inspired by [Idiomatic CSS](https://github.com/necolas/idiomatic-css) and the [GitHub Styleguide](http://github.com/styleguide).
 origin Project by [@mdo](https://github.com/mdo)
-chinese translated by [@zoomzhao](http://zoomzhao.github.io/code-guide/)
+Chinese translated by [@zoomzhao](http://zoomzhao.github.io/code-guide/)
+JavaScript part inspired by [@materliu](https://github.com/materliu/code-guide).
 
 
 <3
