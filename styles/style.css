@@ -1,16 +1,18 @@
-#toTop {
-    display: none;
+#backTo {
     position: fixed;
-    bottom: 5px;
-    right: 5px;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
     width: 64px;
     height: 64px;
-    background-image: url('http://geniuscarrier.com/images/up.png');
+    background-image: url('https://raw.githubusercontent.com/roshanca/code-guide/gh-pages/img/scrollToTop.png');
     background-repeat: no-repeat;
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
+    background-size: 64px 64px;
+    text-indent: -9999px;
+    cursor: pointer;
+    opacity: .6;
 }
-#toTop:hover {
-    opacity: 0.8;
-    filter: alpha(opacity=80); /* For IE8 and earlier */
+
+#backTo:hover {
+    opacity: 1;
 }

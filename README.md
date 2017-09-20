@@ -12,8 +12,10 @@ Released under MIT by, and copyright 2017, @johnsen.
 
 ### Thanks
 
+Origin Project by [@mdo](https://github.com/mdo)
+
 Heavily inspired by [Idiomatic CSS](https://github.com/necolas/idiomatic-css) and the [GitHub Styleguide](http://github.com/styleguide).
-origin Project by [@mdo](https://github.com/mdo)
+
 Chinese translated by [@zoomzhao](http://zoomzhao.github.io/code-guide/)
 JavaScript part inspired by [@materliu](https://github.com/materliu/code-guide).
 

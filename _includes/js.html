@@ -1,9 +1,21 @@
-<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-<script src="javascripts/jquery.scrollToTop.js"></script>
+<div id="backTo" style="display: none;">Back To Top</div>
+<script src="//cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
 
 <script>
-    $(function() {
-        $("#toTop").scrollToTop();
-    });
+    (function() {
+        $(window).on('scroll', function () {
+			if ($(this).scrollTop() > 200) {
+				$('#backTo').fadeIn();
+			} else {
+				$('#backTo').fadeOut();
+			}
+		});
+
+		$('#backTo').on('click', function (e) {
+			e.preventDefault();
+			$('body, html').animate({
+				scrollTop: 0
+			}, 600);
+		});
+    })()
 </script>
